@@ -1,0 +1,18 @@
+.hero {
+    background-image: url('https://image.slidesdocs.com/responsive-images/background/coffee-beans-leaves-wood-plank-powerpoint-background_7e11656c36__960_540.jpg'); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+}

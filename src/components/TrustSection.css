@@ -1,0 +1,19 @@
+.trust-card {
+    border: none; /* Remove border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow */
+    transition: transform 0.2s; /* Add a transition effect */
+}
+
+.trust-card:hover {
+    transform: scale(1.05); /* Scale up on hover */
+}
+
+.trust-card .fa {
+    color: #127ada; /* Change icon color */
+}
+
+@media (max-width: 768px) {
+    .trust-card {
+        margin-bottom: 20px; /* Add margin for mobile */
+    }
+}

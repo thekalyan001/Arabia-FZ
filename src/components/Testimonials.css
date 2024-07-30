@@ -1,0 +1,21 @@
+.testimonial-card {
+    border: none; /* Remove default card border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+    transition: transform 0.2s; /* Transition for hover effect */
+}
+
+.testimonial-card:hover {
+    transform: scale(1.05); /* Slightly scale the card on hover */
+}
+
+.testimonial-image {
+    height: 400px; /* Set a fixed height for the images */
+    object-fit: cover; /* Ensure the image covers the area without distortion */
+    
+}
+
+@media (max-width: 768px) {
+    .testimonial-card {
+        margin-bottom: 20px; /* Add margin for mobile screens */
+    }
+}
